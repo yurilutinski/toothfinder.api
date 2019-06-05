@@ -4,9 +4,8 @@ import java.util.List;
 
 import jdk.nashorn.internal.objects.annotations.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
 
 import com.toothfinder.api.model.consultorio;
 import com.toothfinder.api.repository.ConsultorioRepository;
@@ -21,6 +20,13 @@ public class consultorioResource {
 	@GetMapping
 	public List<consultorio> listar () {
 		return consultorioRepository.findAll();
+	}
+
+	@PostMapping
+	@ResponseStatus(HttpStatus.CREATED)
+	public void inserirConsultorio(@RequestBody consultorio consultorioInserido){
+		consultorioRepository.save(consultorioInserido);
+
 	}
 
 
