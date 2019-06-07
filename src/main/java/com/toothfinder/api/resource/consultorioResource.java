@@ -6,6 +6,7 @@ import java.util.List;
 import jdk.nashorn.internal.objects.annotations.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import com.toothfinder.api.model.consultorio;
@@ -37,5 +38,10 @@ public class consultorioResource {
 		response.setHeader("Location", ((URI) uri).toASCIIString());
 	}
 
+    @GetMapping("/{codigo}")
+    public consultorio buscarConsultorioPorID(@PathVariable Long codigo){
+	    return consultorioRepository.findOne(codigo);
+    }
 
 }
+
