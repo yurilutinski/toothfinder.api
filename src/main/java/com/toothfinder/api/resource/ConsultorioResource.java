@@ -3,10 +3,8 @@ package com.toothfinder.api.resource;
 import java.net.URI;
 import java.util.List;
 
-import jdk.nashorn.internal.objects.annotations.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import com.toothfinder.api.model.consultorio;
@@ -14,11 +12,11 @@ import com.toothfinder.api.repository.ConsultorioRepository;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
 import javax.servlet.http.HttpServletResponse;
-import javax.xml.ws.Response;
 
 @RestController
 @RequestMapping("/consultorios")
-public class consultorioResource {
+@CrossOrigin
+public class ConsultorioResource {
 	
 	@Autowired
 	private ConsultorioRepository consultorioRepository;
