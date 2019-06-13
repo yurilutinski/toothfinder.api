@@ -1,0 +1,102 @@
+<!doctype>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<title>ToothFinder</title>
+		<link rel="stylesheet" href="css/Normalize.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet"/>
+		<link rel="stylesheet" href="css/estilo.css"/>
+	</head>
+	<body>
+		<div class="header">
+			<div class="linha">
+				<header>
+					<div class="coluna col4">
+						<h1 class="logo">ToothFinder</h1>
+					</div>
+					<div class="coluna col8">
+						<nav>
+							<ul class="menu inline sem marcador">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="clientes.html">Clientes</a></li>
+								<li><a href="Sobre.html">Sobre</a></li>
+								<li><a href="Contato.html">Contato</a></li>
+								<li><a href="cadastro.html">Cadastro</a></li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+			</div>
+		</div>
+        <center>    
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.9783271514684!2d-53.46196368255615!3d-24.966851999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f3d43e8bfa25c9%3A0x22d47b5abdc2625a!2sConsult%C3%B3rio+Odontol%C3%B3gico+Dra+Hechelyn+Bolsi!5e0!3m2!1spt-BR!2sbr!4v1559781593795!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0"  allowfullscreen></iframe>
+        </center>
+        <div class = "linha">
+            <div class="coluna col5">
+			   <!-- aqui terá as informações completa do consultorio e tambem o mapa da localização no google maps -->
+				<h3>Contato direto</h3>
+                     <ul class="sem-padding sem-marcador">
+                         <li><strong>Fone: </strong>(45) 99842-7520</li>
+                         <li><strong>Endereço:</strong>Rua Carlos de Carvalho, 2556, Parque São Paulo, Cascavel-PR</li>
+                         <li><strong>Horário de funcionamento:</strong></li>
+						 <li>seg: 14:00 – 20:00</li>
+						 <li>ter: 09:00 – 12:00, 13:30 – 18:00</li>
+						 <li>qua: 09:00 – 12:00, 13:30 – 18:00</li>
+						 <li>qui: Fechado</li>
+                         <li>sex: 09:00 – 12:00, 13:30 – 18:00</li>
+                         <li>sáb: 09:00 – 12:00</li>
+                         <li>dom: Fechado</li>
+                     </ul>
+            </div>
+        </div>
+		<div class="conteudo-extra">
+			<div class="linha">
+				<div class="coluna col7">
+					<section>
+						<h2>Opnião de quem utiliza</h2>
+						<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.</p>
+						<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.</p>
+						<p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.</p>
+						<p><em>Fulano de tal</em></p>
+					</section>
+				</div>
+				<div class="coluna col5">
+				<h3>Ultimas noticias</h3>
+					<ul class="sem marcador sem-padding noticias">
+						<li>
+							<img src="img/thumb-pequena.jpg" alt=""/>
+							<h4>Titulo da noticia publicada no site</h4>
+							<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+							in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+							anim id est laborum."<a href="">Leia mais &raquo;</a></p>
+						</li>
+						<li>
+							<img src="img/thumb-pequena.jpg" alt=""/>
+							<h4>Titulo da noticia publicada no site</h4>
+							<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+							in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+							anim id est laborum."<a href="">Leia mais &raquo;</a></p>
+						</li>
+						<li>
+							<img src="img/thumb-pequena.jpg" alt=""/>
+							<h4>Titulo da noticia publicada no site</h4>
+							<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+							in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+							anim id est laborum."<a href="">Leia mais &raquo;</a></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<footer>
+				<div class="coluna col12">
+					<span>&copy; 2019 - ToothFinder Web</span>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
